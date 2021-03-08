@@ -1,0 +1,34 @@
+-- 폴더 생성
+cd boiler-plate
+
+-- npm init
+npm init
+
+--  express 설치 
+npm install express --save
+
+--  npm 시작
+npm run start
+
+-- 로컬 확인 
+http://localhost:5000/
+
+-- mongoose 설치
+npm install mongoose --save
+
+-- git 버젼
+git --version
+
+-- git 초기화
+git init
+
+-- git 상태보기
+git status
+
+-- gitignore 생성
+.gitignore   만들기  
+node_modules 내용 추가 
+
+-- 캐시 지우기
+git rm --cached node_modules -r
+git add . <- gitignore 만들기 전에 실행한경우 캐시지워야함
