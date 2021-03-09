@@ -32,3 +32,31 @@ node_modules 내용 추가
 -- 캐시 지우기
 git rm --cached node_modules -r
 git add . <- gitignore 만들기 전에 실행한경우 캐시지워야함
+
+-- commit  m <- 메시지 작성
+git commit -m "처음 저장소에 올림"
+
+-- ssh 설치
+Generating a new SSH key and adding it to the ssh-agent  검색 
+1> Open Git Bash.
+2> ssh-keygen -t ed25519 -C "rovo486@gmail.com"
+3> eval `ssh-agent -s`
+4> ssh-add ~/.ssh/id_ed25519
+5> clip < ~/.ssh/id_ed25519.pub    <-- 클립보드에 복사됨
+
+-- githup 에서 ssh 생성
+우측 setting > SSH and GPG keys > new SSH key > key 붙여넣기 
+
+-- githup 연결
+git add README.md
+git remote add origin https://github.com/rovo486/boiler-plate.git
+git branch -M main
+git push -u origin main
+
+-- body-parser dependency  설치
+npm install body-parser --save
+
+-- nodemon  설치
+npm install nodemon --save-dev
+
+-dev 옵션 넣어주면 package.json ->devDependencies 로 들어간다
