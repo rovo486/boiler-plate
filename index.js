@@ -82,9 +82,7 @@ app.get('api/users/logout',auth, (res, req) => {
       })
     })
 })
-
-// mongodb rovo486 , basic99
-// mongodb+srv://rovo486:<password>@boilerplate.k1xlm.mongodb.net/myFirstDatabase?retryWrites=true&w=majority 
+ 
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
 })
