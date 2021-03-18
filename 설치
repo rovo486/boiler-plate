@@ -60,3 +60,26 @@ npm install body-parser --save
 npm install nodemon --save-dev
 
 -dev 옵션 넣어주면 package.json ->devDependencies 로 들어간다
+
+-- 암호화 
+npm install bcrypt --save
+
+-- 몽고db 메뉴
+cloud.mongodb.com
+Clusters > boilerplate > Collections 조회 
+
+
+// mongodb rovo486 , basic99
+// mongodb+srv://rovo486:<password>@boilerplate.k1xlm.mongodb.net/myFirstDatabase?retryWrites=true&w=majority 
+
+-- json웹토큰 
+npm install jsonwebtoken --save
+
+-- 쿠키parser
+npm install cookie-parser --save
+
+{
+    "name": "test2",
+    "email": "test2@nate.com",
+    "password": "ppp1234"
+}
